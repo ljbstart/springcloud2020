@@ -12,4 +12,9 @@ public class ResultObject<T> {
     private String msg;
     private T data;
 
+    public ResultObject (Integer code,String msg) {
+         this.code=code;
+         this.msg=msg;
+         this.data =null;
+    }
 }
