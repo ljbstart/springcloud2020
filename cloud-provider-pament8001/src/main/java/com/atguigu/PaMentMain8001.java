@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
-@MapperScan(basePackages = "com.atguigu.db.mapper.*")
+@MapperScan(basePackages = "com.atguigu.mysql.mapper")
 @SpringBootApplication
 @Configurable
 @EnableAsync

@@ -1,5 +1,6 @@
 package com.atguigu.service;
 
+import com.atguigu.common.result.ResultObject;
 import org.springframework.stereotype.Service;
 
 /**
@@ -9,4 +10,7 @@ import org.springframework.stereotype.Service;
  * @creatTime: 2020-11-02 2:19
  */
 public interface PayMentService {
+
+    ResultObject getPayment(Long id);
+
 }

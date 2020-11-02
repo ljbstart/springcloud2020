@@ -11,7 +11,7 @@ import org.apache.ibatis.annotations.Param;
  * @creatTime: 2020-11-02 2:01
  */
 @Mapper
-public interface PaMentEntityMapper {
+public interface PayMentEntityMapper {
 
     int creat(PayMentEntity payMentEntity);
 
